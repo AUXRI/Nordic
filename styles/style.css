@@ -54,6 +54,7 @@
     font-weight: 500;
     margin-bottom: 2.4rem;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
   }
   
   img {
@@ -66,6 +67,7 @@
     font-weight: 400;
     line-height: 100%;/* 1.4rem */
     padding-top: 6rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   p {
@@ -76,7 +78,7 @@
     background-color: var(--text-color2);
     font-weight: 400;
     font-size: 1.4rem;
-    font-family: "Roboto";
+    font-family: 'Roboto', sans-serif;
   }
   
   .header {
@@ -157,6 +159,7 @@
     line-height: 100%;
     text-align: center;
     margin-top: 3.2rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   .hero_img {
@@ -188,6 +191,7 @@
     padding: 1.8rem 4.8rem;
     align-self: stretch;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
+    font-family: 'Roboto', sans-serif;
   }
   
   .section_us {
@@ -201,6 +205,7 @@
     font-weight: 700;
     line-height: 120%;
     /* 2.88rem */
+    font-family: 'Roboto', sans-serif;
   }
   
   .cook_us {
@@ -209,12 +214,13 @@
     font-weight: 300;
     line-height: 170%;/* 2.38rem */
     font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   .our_team{
     margin-top:1.2rem ;
     color: var(--222733, #222733);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: 170%; /* 23.8px */
@@ -227,6 +233,7 @@
     font-weight: 300;
     line-height: 170%;
     /* 2.38rem */
+    font-family: 'Roboto', sans-serif;
   }
   
   .advanchers {
@@ -245,7 +252,7 @@
   
   .us_digit {
     color: var(--222733, #222733);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 4rem;
     font-style: normal;
     font-weight: 500;
@@ -267,6 +274,7 @@
     /* 1.96rem */
     color: var(--222733, #222733);
     margin-bottom: 2.4rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   .section-shef {
@@ -287,14 +295,17 @@
     font-weight: 700;
     line-height: 130%;
     /* 2.86rem */
+    font-family: 'Roboto', sans-serif;
   }
   
   .feel_shef {
     margin-top: 2.4rem;
     font-size: 2.2rem;
     font-style: normal;
+    font-weight: 400;
     line-height: 130%;
     /* 2.86rem */
+    font-family: 'Roboto', sans-serif;
   }
   
   .hero_h2-shef {
@@ -303,6 +314,7 @@
     font-weight: 300;
     margin-top: 4rem;
     margin-bottom: 1.4rem;
+    font-family: 'Roboto', sans-serif;
   }
   
   .shef_video {
@@ -327,6 +339,7 @@
     font-weight: 700;
     line-height: 120%;
     /* 2.88rem */
+    font-family: 'Roboto', sans-serif;
   }
   
   .offers {
@@ -339,10 +352,12 @@
     align-items: flex-start;
     gap: 2rem;
     align-self: stretch;
+    
   }
   
   .whyus_list_p {
     font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 160%;
     /* 2.24rem */
@@ -371,6 +386,7 @@
     font-size: 2.6rem;
     font-style: normal;
     line-height: 130%;
+    font-family: 'Roboto', sans-serif;
     /* 3.38rem */
   }
   
@@ -413,6 +429,10 @@
     display: flex;
     gap: 2rem;
     padding-bottom: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 100%; /* 14px */
+
   }
   
 .footer-list-icons {}
