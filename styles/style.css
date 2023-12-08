@@ -1,0 +1,413 @@
+/* style.css */
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 300; 
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 400;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 500;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 600; 
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap') format('woff');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-weight: 700; 
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap') format('woff');
+  }
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+  
+  :root {
+    --text-color1: white;
+    --text-color2: #222733;
+    --back-color1: #161c2d;
+    --text-color3: #f31b62;
+    font-family: "Roboto";
+    font-size: 62.5%;
+  }
+  
+  h1 {
+    font-size: 3.3rem;
+    line-height: 100%;/* 3.3rem */
+    font-weight: 500;
+    margin-bottom: 2.4rem;
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .hero_h2 {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;/* 1.4rem */
+    padding-top: 6rem;
+  }
+  
+  p {
+    font-family: "Roboto";
+  }
+  
+  body {
+    background-color: var(--text-color2);
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: "Roboto";
+  }
+  
+  .header {
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    display: flex;
+  }
+  
+  .container {
+    padding: 0 2.4rem;
+  }
+  
+  .header_link {
+    margin-left: 2.26rem;
+    width: 12.9362rem;
+    height: 3.7447rem;
+  }
+  
+  .hero_burger {
+    padding-right: 2rem;
+    margin-top: 2.26rem;
+    background: none;
+    border: none;
+  }
+  
+  .logo {
+    margin-top: 1.2rem;
+    margin-left: 10rem;
+  }
+  
+  .main {}
+  
+  .hero {
+    background-image: url("../img/hero.png");
+    background-repeat: no-repeat;
+    min-height: 58rem;
+    min-width: 37.5rem;
+  }
+  
+  .hero_upper {
+    color: var(--text-color1);
+  
+    text-align: center;
+    font-style: normal;
+    line-height: 1.4rem;
+    opacity: 0.8;
+    padding-top: 16.6rem;
+  }
+  
+  .hero_mid {
+    color: var(--text-color1);
+    margin-left: 2.4rem;
+    width: 32.7rem;
+    font-size: 3.3rem;
+    margin-top: 1.2rem;
+  }
+  
+  .hero_bottom {
+    color: var(--text-color1);
+    font-size: 1.6rem;
+    line-height: 140%; /* 2.24rem */
+    text-align: center;
+    margin-top: 1.6rem;
+    margin-left: 2.4rem;
+    opacity: 0.8;
+  }
+  
+  .hero_top {
+    color: var(--text-color3);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+    margin-top: 3.2rem;
+  }
+  
+  .hero_img {
+    display: flex;
+    height: 4.5rem;
+    justify-content: center;
+    gap: 2.8rem;
+  }
+  
+  .hero_sheet {
+  
+  }
+  
+  .hero_place {
+    width: 13.9rem;
+    height: 2.7rem;
+  }
+  
+  .hero_bid {
+    height: 5.2rem;
+    width: 32.7rem;
+    border: none;
+    font-size: 1.6rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    background: var(--text-color1);
+    margin: 3.2rem 2.4rem 3.2rem 2.4rem;
+    padding: 1.8rem 4.8rem;
+    align-self: stretch;
+  }
+  
+  .section_us {
+    background: var(--text-color1);
+  }
+  
+  .us_help {
+    margin-top: 4rem;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 2.88rem */
+  }
+  
+  .cook_us {
+    margin-top: 4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%;/* 2.38rem */
+    font-size: 1.4rem;
+  }
+  
+  .our_team{
+    margin-top:1.2rem ;
+    color: var(--222733, #222733);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%; /* 23.8px */
+  
+  }
+  
+  .cook_us2 {
+    margin-top: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 170%;
+    /* 2.38rem */
+  }
+  
+  .advanchers {
+    display: flex;
+    margin-top: 4rem;
+    gap: 2.4rem;
+  }
+  
+  .advanchers_item {
+    display: flex;
+    width: 15.2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.2rem;
+  }
+  
+  .us_digit {
+    color: var(--222733, #222733);
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 44px */
+  }
+  
+  .us-plus {
+    color: #545e76;
+    font-size: 4rem;
+    font-style: normal;
+    line-height: 110%;
+    /* 4.4rem */
+  }
+  
+  .us-list-p {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 140%;
+    /* 1.96rem */
+    color: var(--222733, #222733);
+    margin-bottom: 2.4rem;
+  }
+  
+  .section-shef {
+    background: var(--text-color1);
+  }
+  
+  .shef_img {
+    padding-top: 8.4rem;
+  }
+  
+  .citat {
+    margin-top: -3.4rem;
+  }
+  
+  .shef_name {
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    /* 2.86rem */
+  }
+  
+  .feel_shef {
+    margin-top: 2.4rem;
+    font-size: 2.2rem;
+    font-style: normal;
+    line-height: 130%;
+    /* 2.86rem */
+  }
+  
+  .hero_h2-shef {
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: 4rem;
+    margin-bottom: 1.4rem;
+  }
+  
+  .shef_video {
+    padding-top: 6rem;
+    margin-left: -2.4rem;
+    width: 37.5rem;
+  }
+  
+  .section-answer {
+    background: var(--text-color1);
+  }
+  
+  .hero_h2-whyus {
+    padding-top: 6rem;
+  }
+  
+  .means {
+  
+    margin-top: 3.2rem;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    /* 2.88rem */
+  }
+  
+  .offers {
+    margin-top: 4rem;
+    padding-bottom: 7.6rem;
+  }
+  
+  .whyus_list {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+  }
+  
+  .whyus_list_p {
+    font-style: normal;
+    font-weight: 300;
+    line-height: 160%;
+    /* 2.24rem */
+    margin-bottom: 3.2rem;
+  }
+  
+  .smi {
+    background-image: url("../img/smi.png");
+    background-repeat: no-repeat;
+    height: 62.4rem;
+    fill-opacity: 0.4;
+  }
+  
+  .hero_smi {
+    color: var(--text-color1);
+    padding-top: 6rem;
+  }
+  
+  .smi_img {
+    margin-bottom: 4rem;
+    margin-top: 3.2rem;
+  }
+  
+  .smi_text {
+    color: var(--text-color1);
+    font-size: 2.6rem;
+    font-style: normal;
+    line-height: 130%;
+    /* 3.38rem */
+  }
+  
+  .forbes_arrow {
+    display: flex;
+    margin-top: 3.2rem;
+  }
+  
+  .forbes-img {
+    margin-right: 10.9rem;
+  }
+  
+  .arrow-left-img {}
+  
+  .arrow-right-img {
+    margin-left: 0.6rem;
+  }
+  
+  .section-footer {
+    background-color: var(--text-color1);
+    padding-top: 4rem;
+  }
+  
+  .footer-ul-contacts {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .footer-list-contacts {
+    margin-bottom: 3.2rem;
+    color: var(--text-color2);
+    font-style: normal;
+    line-height: 100%;
+    /* 1.4rem */
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  
+  .footer-ul-icons {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 4rem;
+  }
+  
+  .footer-list-icons {}
