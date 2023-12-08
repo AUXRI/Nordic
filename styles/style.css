@@ -133,6 +133,10 @@
     width: 32.7rem;
     font-size: 3.3rem;
     margin-top: 1.2rem;
+    background: linear-gradient(to right, #4d5bc3, #e03d79);
+  -webkit-background-clip: text; 
+  color: transparent;
+  text-fill-color: transparent;
   }
   
   .hero_bottom {
@@ -183,6 +187,7 @@
     margin: 3.2rem 2.4rem 3.2rem 2.4rem;
     padding: 1.8rem 4.8rem;
     align-self: stretch;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   }
   
   .section_us {
