@@ -127,6 +127,8 @@
     line-height: 1.4rem;
     opacity: 0.8;
     padding-top: 16.6rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
   }
   
   .hero_mid {
@@ -135,20 +137,25 @@
     width: 32.7rem;
     font-size: 3.3rem;
     margin-top: 1.2rem;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #4d5bc3, #e03d79);
-  -webkit-background-clip: text; 
-  color: transparent;
-  text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    color: transparent;
+    text-fill-color: transparent;
   }
   
   .hero_bottom {
     color: var(--text-color1);
     font-size: 1.6rem;
+    font-weight: 400;
+    font-style: normal;
     line-height: 140%; /* 2.24rem */
     text-align: center;
     margin-top: 1.6rem;
     margin-left: 2.4rem;
     opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
   }
   
   .hero_top {
@@ -187,8 +194,9 @@
     display: flex;
     justify-content: center;
     background: var(--text-color1);
-    margin: 3.2rem 2.4rem 3.2rem 2.4rem;
+    margin: 3.2rem 2.4rem 2.4rem 2.4rem;
     padding: 1.8rem 4.8rem;
+    gap:1rem;
     align-self: stretch;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
     font-family: 'Roboto', sans-serif;
