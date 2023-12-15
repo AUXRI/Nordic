@@ -78,6 +78,7 @@
   body {
     background-color: var(--text-color2);
     font-weight: 400;
+    /* padding-left: 2.4rem;   */
     font-size: 1.4rem;
     font-family: 'Roboto', sans-serif;
     min-width: 37.4rem;
@@ -93,6 +94,7 @@
   
   .container {
     padding: 0 2.4rem;
+
     
   }
   
@@ -345,11 +347,12 @@
   }
   
   .shef_video {
-    padding-top: 6rem;
-    margin-left: -2.4rem;
-    margin-right: 0;
-    width: 37.5rem;
+    padding-top: 6rem;  
     width: 100%;
+  }
+
+  .shef_video2{
+
   }
   
   .section-answer {
