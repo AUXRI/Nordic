@@ -103,10 +103,14 @@
   }
   
   .hero_burger {
-    padding-right: 2rem;
+
     margin-top: 2.26rem;
     background: none;
     border: none;
+    position: fixed;
+    top: 0; 
+    right: 2rem; 
+
   }
   
   .logo {
