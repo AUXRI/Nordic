@@ -54,6 +54,7 @@
     font-weight: 500;
     margin-bottom: 2.4rem;
     text-align: center;
+    font-style: normal;
     font-family: 'Roboto', sans-serif;
   }
   
@@ -79,6 +80,7 @@
     font-weight: 400;
     font-size: 1.4rem;
     font-family: 'Roboto', sans-serif;
+    min-width: 37.4rem;
   }
   
   .header {
@@ -86,10 +88,12 @@
     position: absolute;
     width: 100%;
     display: flex;
+    max-width: 37.4rem;
   }
   
   .container {
     padding: 0 2.4rem;
+    
   }
   
   .header_link {
@@ -113,15 +117,16 @@
   .main {}
   
   .hero {
-    background-image: url("../img/hero.png");
+    background-image: url("../img/hero_full.png");
     background-repeat: no-repeat;
+    background-size: cover;
     min-height: 58rem;
     min-width: 37.5rem;
+    object-fit: scale-down;
   }
   
   .hero_upper {
     color: var(--text-color1);
-  
     text-align: center;
     font-style: normal;
     line-height: 1.4rem;
@@ -134,10 +139,12 @@
   .hero_mid {
     color: var(--text-color1);
     margin-left: 2.4rem;
-    width: 32.7rem;
+    /* width: 32.7rem;  */
     font-size: 3.3rem;
     margin-top: 1.2rem;
     font-weight: 500;
+    text-align: center;
+    font-style: normal;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to right, #4d5bc3, #e03d79);
     -webkit-background-clip: text; 
@@ -189,12 +196,13 @@
     height: 5.2rem;
     width: 32.7rem;
     border: none;
+    font-style: normal;
     font-size: 1.6rem;
     font-weight: 500;
     display: flex;
     justify-content: center;
     background: var(--text-color1);
-    margin: 3.2rem 2.4rem 2.4rem 2.4rem;
+    margin: 0 auto;
     padding: 1.8rem 4.8rem;
     gap:1rem;
     align-self: stretch;
@@ -244,6 +252,11 @@
     font-family: 'Roboto', sans-serif;
   }
   
+  .advanchers_items_0 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 130rem; /* Установите подходящую максимальную ширину */
+}
   .advanchers {
     display: flex;
     margin-top: 4rem;
@@ -251,9 +264,11 @@
   }
   
   .advanchers_item {
+
     display: flex;
-    width: 15.2rem;
-    flex-direction: column;
+    flex-direction: row;
+    max-width: 15.2rem;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 1.2rem;
   }
@@ -328,7 +343,9 @@
   .shef_video {
     padding-top: 6rem;
     margin-left: -2.4rem;
+    margin-right: 0;
     width: 37.5rem;
+    width: 100%;
   }
   
   .section-answer {
@@ -373,10 +390,12 @@
   }
   
   .smi {
-    background-image: url("../img/smi.png");
+    background-image: url("../img/smi_full.png");
     background-repeat: no-repeat;
+    background-size: cover;
     height: 62.4rem;
     fill-opacity: 0.4;
+    object-fit: fill;
   }
   
   .hero_smi {
