@@ -47,7 +47,97 @@
     font-family: "Roboto";
     font-size: 62.5%;
   }
+  a:active {
+    color: #00ff00;
+  }
+  a:focus {
+    outline: none;
+  }
+
+  a:hover{
+    color:aqua
+  }
+  ::selection {
+    background-color: var(--text-color3);
+    color: var(--text-color2);
+  }
+
+  button:hover {
+    background-color: #999;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
   
+  button:active {
+    background-color: #555;
+  }
+  
+  button:focus {
+    outline: none;
+    box-shadow: 0 0 10px var(--text-color3);
+  }
+
+  .whyus-list:nth-child(even) {
+    background-color: #f2f2f2; /* Цвет для четных элементов */
+  }
+  
+  .whyus-list:nth-child(odd) {
+    background-color: #ffffff; /* Цвет для нечетных элементов */
+  }
+  
+
+  .logof {
+    transform: rotate(30deg) scale(1.5) skewX(10deg) skewY(5deg);
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .loader {
+    border: 8px solid var(--text-color3);
+    border-top: 8px solid #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 7s linear infinite, fadeOut 5s ease-out 5s forwards;
+  
+    position: absolute;
+    /*top: 40px;
+    left: 95px;*/
+    z-index: 2;
+  }
+  
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .aim {
+    max-width: 100%;
+    animation: fadein 35s;
+    position: relative;
+    z-index: 1;
+  }
+
   h1 {
     font-size: 3.3rem;
     line-height: 100%;/* 3.3rem */
@@ -483,3 +573,8 @@
   clip: rect(0 0 0 0);
 }
 
+
+.header_link_foot{
+  margin-bottom:2rem;
+  justify-content: center;
+}

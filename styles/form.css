@@ -42,3 +42,7 @@ button {
     border-radius: 0.4rem;
     cursor: pointer;
 }
+.form{
+    width: 10rem;
+    height: 20rem;
+  }

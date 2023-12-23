@@ -1,0 +1,75 @@
+body {
+  background-color: gray;
+  margin: 0; 
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "linkss graphic";
+  margin: 10px;
+  padding-top: 90px;
+}
+
+.links {
+  grid-area: linkss;
+}
+
+.graph {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-area: graphic;
+}
+
+.largbocks {
+  grid-column: 1 / -1;
+}
+
+.smallbocks {
+  grid-column: span 2;
+}
+
+.mediumbocks {
+  grid-column: span 3;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; 
+}
+
+.item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column: span 1;
+  max-width: 100%;
+  border-radius: 8px;
+  justify-self: center;
+  align-items: center;
+}
+
+.itemimg {
+  grid-column: span 3; 
+  max-width: 100%;
+  border-radius: 8px 8px 0 0; 
+}
+
+.itema {
+  background-color: black;
+  color: white; 
+  padding: 10px 20px;
+  grid-column: span 3; 
+  text-align: center; 
+  border-radius: 0 0 8px 8px; 
+}
