@@ -23,6 +23,7 @@ main {
 
 .links {
   grid-area: linkss;
+  grid-column: span 1; 
 }
 
 .graph {
@@ -71,5 +72,13 @@ main {
   padding: 10px 20px;
   grid-column: span 3; 
   text-align: center; 
+  align-items: center;
   border-radius: 0 0 8px 8px; 
+  
+}
+.links {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: minmax(50px, auto); /* Минимальная высота 50px, авто-высота */
+  gap: 10px; /* Добавляем промежуток между ссылками */
 }

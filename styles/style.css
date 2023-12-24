@@ -430,6 +430,18 @@
   .hero_h2-shef {
     font-size: 1.4rem;
     font-style: normal;
+    display: none;
+
+
+
+    font-weight: 300;
+    margin-top: 4rem;
+    margin-bottom: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  .hero_h2-shef{
+    font-size: 1.4rem;
+    font-style: normal;
     font-weight: 300;
     margin-top: 4rem;
     margin-bottom: 1.4rem;
@@ -577,4 +589,15 @@
 .header_link_foot{
   margin-bottom:2rem;
   justify-content: center;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
